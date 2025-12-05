@@ -1,0 +1,5 @@
+var DISQUSWIDGETS;
+
+if (typeof DISQUSWIDGETS != 'undefined') {
+    DISQUSWIDGETS.displayCount({"text":{"and":"\u0442\u0430","comments":{"zero":"0","multiple":"{num}","one":"1"}},"counts":[{"id":"3983195 https:\/\/itc.ua\/?p=3983195","comments":3},{"id":"3982432 https:\/\/itc.ua\/?p=3982432","comments":66},{"id":"3996236 https:\/\/itc.ua\/?p=3996236","comments":1}]});
+}

@@ -1,0 +1,5 @@
+var DISQUSWIDGETS;
+
+if (typeof DISQUSWIDGETS != 'undefined') {
+    DISQUSWIDGETS.displayCount({"text":{"and":"\u0442\u0430","comments":{"zero":"0","multiple":"{num}","one":"1"}},"counts":[{"id":"3996418 https:\/\/itc.ua\/?p=3996418","comments":21},{"id":"3996362 https:\/\/itc.ua\/?p=3996362","comments":2},{"id":"3996656 https:\/\/itc.ua\/?p=3996656","comments":1},{"id":"https:\/\/itc.ua\/ua\/novini\/clair-obscur-expedition-33-b-ye-istorychnyj-rekord-za-kilkistyu-nominatsij-na-game-awards-12-vklyuchno-z-goty\/","comments":54},{"id":"https:\/\/itc.ua\/ua\/articles\/oglyad-protsesora-amd-ryzen-5-7500x3d\/","comments":66},{"id":"https:\/\/itc.ua\/ua\/novini\/korol-chy-ni-porivnyannya-harakterystyk-steam-machine-ta-suchasnyh-konsolej\/","comments":73},{"id":"https:\/\/itc.ua\/ua\/novini\/korystuvachi-linux-nazbyraly-2000-na-premiyu-remontnyku-yakyj-usune-bag-zi-zvukom-v-lenovo-legion-pro-7\/","comments":62},{"id":"https:\/\/itc.ua\/ua\/novini\/vdvichi-menshyj-za-mizynets-divchyni-yaka-narodylasya-bez-bilshoyi-chastyny-mozku-vypovnylosya-20-rokiv\/","comments":41}]});
+}

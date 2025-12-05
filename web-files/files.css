@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main-title {
+    margin-bottom: 15px;
+}
+
+.block-info {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    line-height: 1.7;
+    max-width: 1000px;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.1);
+    transition: all .3s;
+}
+
+.title-info {
+    cursor: pointer;
+    font-weight: bold;
+    text-wrap: balance;
+    font-size: 20px;
+    transition: color .2s ease-out;
+    color: #222;
+}
+
+.title-info:hover {
+    color: brown;
+}
+
+.block {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;  
+    margin-top: 15px;
+}
+
+.block-info-img {
+    width: 100%;
+    max-height: 300px;
+    display: block;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+}
+
+.block-info-img:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.1);
+}
+
+
+.aside {
+    width: 400px;
+    height: auto;
+    background-color: white;
+    text-align: left;
+    font-size: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.1);
+}
+
+.aside-block {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.aside-decoration {
+    flex-grow: 1;
+    width: 100%;
+    background-image: url(../img/ukraine.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: top center;
+}
+
+
+.aside h2 {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.article {
+    display: flex;
+    min-height: 100px;
+    gap: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-wrap: balance;
+}
+
+.article a {
+    color: #222;
+    transition: all .3s ease-out;
+}
+
+.article a:hover {
+    color: brown;
+}
+
+.article-block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+}
+
+.link-news {
+    width: fit-content;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    background-color: rgb(97, 97, 97);
+    transition: all .3s;
+}
+
+.link-news:hover {
+    color: #ffeded;
+    background-color: gray;
+}
+
+.article img {
+    width: 120px;
+    max-height: 100px;
+    display: block;
+}
+
+.scroll-container {
+    position: relative;
+}
+
+.scroll-container.active {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.5);
+    z-index: 9999;
+    width: auto;
+    height: auto;
+    max-width: 80vw;
+    max-height: 80vh;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+}
+
+.scroll-container.active img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.it-link-news {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    width: 450px;
+    background-color: #fff;
+    color: #222;
+    border-radius: 20px;
+    padding: 20px;
+    height: auto;
+    box-shadow: 0 0 1px #222;
+}
+
+.it-link-news a {
+    color: #222;
+    cursor: pointer;
+}
+
+.it-link-news a:hover {
+    color: brown;
+}
+
+.it-link-news-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.it-link-news-header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.it-link-news-header-logo {
+    width: 40px;
+    height: auto;
+}
+
+.it-link-news-header-logo:hover {
+    box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+
+.it-link-news-x {
+    padding: 5px;
+    border: 1px solid #222;
+    border-radius: 20px;
+    text-align: center;
+    transition: all .3s;
+}
+
+.it-link-news-x:hover {
+    background-color: rgba(218, 126, 126, 0.348);;
+}
+
+.paragraph-decoration {
+    margin-top: 30px;
+    letter-spacing: normal;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.under-line-abz {
+    width: 80px;
+    height: 2px;
+    background-color: brown;
+    margin: 10px auto;
+}
+
+.line-trought {
+    text-decoration: line-through;
+}
+
+.link-oglad {
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all .3s;
+}
+
+.link-oglad:hover {
+    background-color: rgb(182, 54, 54);
+}
