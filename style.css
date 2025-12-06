@@ -211,11 +211,11 @@ thead:hover {
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-image: url('../../img/FullMoon2010.jpg-removebg-preview.png');
+    background-image: url('img/FullMoon2010.jpg-removebg-preview.png');
 }
 
 .toggle-btn-t {
-    background-image: url(../../img/sun.png);
+    background-image: url('img/sun.png');
     z-index: 1;
 }
 
