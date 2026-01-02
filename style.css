@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    scroll-behavior: smooth !important;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -14,6 +18,36 @@ body {
     min-height: 100vh;
     margin: 0;
     transition: background-color .3s, color .3s;
+}
+
+
+.ul-footer {
+    padding-left: 20px;
+}
+
+.ul-footer li {
+    list-style: decimal;
+    margin-bottom: 10px;  
+    max-width: 100%;
+}
+
+.ul-footer a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.ul-footer li:hover {
+    color: brown;
+}
+
+.special-link {
+    color: brown;
+    transition: all .1s ease-in;
+}
+
+.special-link:hover {
+    color: rgb(128, 86, 86);
 }
 
 .dark-theme {
@@ -307,10 +341,9 @@ thead:hover {
 
 .footer {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+    justify-content: center;
     padding: 20px;
+    max-width: 100%;
     background-color: black;
     color: white;   
 }
@@ -322,13 +355,18 @@ thead:hover {
 .footer-container {
     display: flex;
     justify-content: space-around;
+    gap: 50px;
 } 
 
 .footer-info {
-    width: 400px;
+    min-width: 400px;
     font-size: 15px;
     line-height: 1.5;
 
+}
+
+.footer-btn-name {
+    min-width: 700px;
 }
 
 .footer-btn-name button {
@@ -362,6 +400,7 @@ thead:hover {
 .footer-name a {
     font-size: 25px;
     color: rgb(255, 255, 255);
+    margin-bottom: 15px;
 }
 
 .arrow {

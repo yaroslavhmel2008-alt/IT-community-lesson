@@ -40,3 +40,13 @@ if (btnLightDark) {
         }
     });
 }
+
+document.querySelector('.arrow').addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector('#header-navigation');
+    if (target) {
+        target.scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+});
